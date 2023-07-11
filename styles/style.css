@@ -1,8 +1,33 @@
-h1 {
-  color: blue;
-  font-family: "Roboto Slab", serif;
+:root {
+  --header-font: "Patua One", cursive;
+  --text-font: "Roboto Slab", serif;
+  --primary-color: #08213b;
 }
 
-h2 {
-  font-family: "Patua One", cursive;
+h1 {
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  text-align: center;
+}
+
+h2,
+p,
+footer,
+i {
+  font-family: var(--text-font);
+  color: var(--primary-color);
+  text-align: center;
+}
+nav {
+  color: var(--primary-color);
+  font-family: var(--text-font);
+  font-weight: bold;
+}
+
+.footer-icon {
+  margin: 20px;
+}
+
+.footer-icon i {
+  font-size: 36px;
 }
