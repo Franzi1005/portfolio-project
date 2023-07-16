@@ -7,7 +7,9 @@ body {
   background: #ded2ea;
 }
 
-h1 {
+h1,
+h5,
+a {
   color: var(--primary-color);
   font-family: var(--header-font);
   text-align: center;
@@ -38,4 +40,9 @@ p {
 
 .footer-icon i {
   font-size: 36px;
+}
+
+.single-project {
+  background-color: red;
+  text-align: center;
 }
