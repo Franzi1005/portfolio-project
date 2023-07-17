@@ -2,6 +2,7 @@
   --header-font: "Patua One", cursive;
   --text-font: "Roboto Slab", serif;
   --primary-color: #08213b;
+  --secondary-color: #4a1153;
 }
 body {
   background: #ded2ea;
@@ -42,7 +43,15 @@ p {
   font-size: 36px;
 }
 
-.single-project {
-  background-color: red;
-  text-align: center;
+.project-link {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+:hover.project-link {
+  background-color: #64346b;
+  transition: ease-in-out 150ms;
 }
