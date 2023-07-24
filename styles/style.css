@@ -3,6 +3,7 @@
   --text-font: "Roboto Slab", serif;
   --primary-color: #08213b;
   --secondary-color: #4a1153;
+  --third-color: #64346b;
 }
 body {
   background: #ded2ea;
@@ -55,4 +56,30 @@ p {
 :hover.project-link {
   background-color: #64346b;
   transition: ease-in-out 150ms;
+}
+
+.project-picture:hover {
+  transform: scale(1.05);
+  transition: 200ms ease-in-out;
+  filter: contrast(90%);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: var(--primary-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--third-color) !important;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.my-email:hover {
+  color: var(--third-color);
+}
+i:hover {
+  color: var(--third-color);
 }
