@@ -83,3 +83,20 @@ p {
 i:hover {
   color: var(--third-color);
 }
+
+@media (max-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+  .m-5 {
+    margin: 8px !important;
+    margin-bottom: 36px !important;
+  }
+  .project-link {
+    font-size: 10px !important;
+  }
+
+  .text-start {
+    text-align: center !important;
+  }
+}
